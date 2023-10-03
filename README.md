@@ -1,4 +1,5 @@
 # shopify-stores-analysis(based on the dataset given at:https://github.com/TeamDukaan/performance.git)
+# ******Deciding the prime customers of the service they provide****
 # Steps followed:
 1.At first the I have fetched the dataset using 'git clone'
 2.taken top 700 sites only as sample data (due less processing power available)
