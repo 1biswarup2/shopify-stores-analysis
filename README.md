@@ -1,15 +1,15 @@
 # shopify-stores-analysis(based on the dataset given at:https://github.com/TeamDukaan/performance.git)
 # ******Deciding the prime customers of the service they provide****
 # Steps followed:
-1.At first the I have fetched the dataset using 'git clone'
-2.taken top 700 sites only as sample data (due less processing power available)
-3.Then via webscraping, I have fetched each sites title and stored it into 'title.txt'
-4.Then after eliminarting the errorneous entries,finally prepared a list 'NotNullStr'
-5.Then created a list of preprocessed sentences removing stop-words and punctuations from sentences in 'NotNullStr'
-6.Then converted each string in tfidf vector and then applied clustering on this to categorize it into 20 categories
-7.Then created a bigram graph for each cluster
-8.Then using that graph ,finally got a summary or cluster title which defines the genral type of the sites of that cluster
-9.Then created a frequency plot for each cluster
+1.At first the I have fetched the dataset using 'git clone' 
+2.taken top 700 sites only as sample data (due less processing power available) 
+3.Then via webscraping, I have fetched each sites title and stored it into 'title.txt' 
+4.Then after eliminarting the errorneous entries,finally prepared a list 'NotNullStr' 
+5.Then created a list of preprocessed sentences removing stop-words and punctuations from sentences in 'NotNullStr' 
+6.Then converted each string in tfidf vector and then applied clustering on this to categorize it into 20 categories 
+7.Then created a bigram graph for each cluster 
+8.Then using that graph ,finally got a summary or cluster title which defines the genral type of the sites of that cluster 
+9.Then created a frequency plot for each cluster 
 # data frame of cluster vs frequency:
 ![image](https://github.com/1biswarup2/shopify-stores-analysis/assets/56034566/649abb06-82b3-4d44-9df7-d389f8a924c8)
 
